@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-        jdk: 8
+        java: 8
   build:
     commands:
       - mvn package
